@@ -1,0 +1,52 @@
+h1{
+    color: rgb(255, 0, 0);background-color:  rgb(2, 2, 114);font-style:inherit;font-size:100px;line-height: 5rem;display: inline;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+.choicess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem;
+    caret-color: transparent;
+   
+}
+.choice:hover{
+ background-color: black;
+    cursor: pointer;
+
+}
+.choice{
+    
+    border-radius: 50%;
+}
+.point_tabel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    margin: 5rem;
+    font-size: 5vh;
+}
+#showmsg{
+    text-align: center;
+    color: red;
+    background-color: aqua;
+    font-size: 10vh;
+    font-style:italic;
+    display: inline;
+    border-radius: 1rem;
+}
+.msg{
+    margin-top: 1rem;
+   
+}
